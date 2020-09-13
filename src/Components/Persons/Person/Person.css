@@ -1,0 +1,18 @@
+.Title{
+    font-size: 2em;
+}
+.person{
+    width: 40%;
+    margin: auto;
+    border: solid 1px black;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: lightcyan;
+}
+
+@media (min-width : 500px){
+    .person{
+        width: 500px;
+        color: lightgreen;
+    }
+}
